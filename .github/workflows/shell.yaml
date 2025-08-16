@@ -6,10 +6,8 @@ jobs:
     steps:
     - name: checkout Repo
       uses: actions/checkout@v4
-
     - name: list files
       run: ls -ltra
-
     - name: Executing shell script
       run: |
         chmod +x ascii-script.sh
