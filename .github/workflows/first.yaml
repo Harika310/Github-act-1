@@ -12,5 +12,3 @@ jobs:
 
     - name: list files
       run: ls
-
-
