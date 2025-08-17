@@ -27,4 +27,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: harika402/test-image:latest
+          tags: harika402/mysql:v1
