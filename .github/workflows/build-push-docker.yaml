@@ -25,6 +25,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./Dockerfile
           push: true
-          tags: harika402/mysql:v1
+          tags: harika402/test-image:latest
